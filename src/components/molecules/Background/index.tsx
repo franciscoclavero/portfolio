@@ -1,10 +1,14 @@
 import React from 'react';
 
-import { BackgroundStyled } from './index.module';
+import Ocean from '../Ocean';
+
+import { BackgroundStyled } from './styled.module';
 
 const Background = () => {
   return (
-    <BackgroundStyled></BackgroundStyled>
+    <BackgroundStyled>
+      <Ocean />
+    </BackgroundStyled>
   )
 }
 
