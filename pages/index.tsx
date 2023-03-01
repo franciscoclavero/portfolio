@@ -1,8 +1,10 @@
 import React from 'react';
 
+import Background from '../src/components/molecules/Background';
+
 const Home = () => {
   return (
-    <div>Hello World</div>
+    <Background />
   )
 }
 
