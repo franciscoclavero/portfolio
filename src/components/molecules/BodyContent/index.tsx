@@ -3,7 +3,7 @@ import React from 'react';
 import { BodyContentStyled } from './style.module';
 
 const BodyContent = () => {
-  return <BodyContentStyled>AAAA</BodyContentStyled>
+  return <BodyContentStyled>AAA</BodyContentStyled>
 };
 
 export default BodyContent;
