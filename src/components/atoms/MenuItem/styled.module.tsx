@@ -7,7 +7,7 @@ export const MenuItemStyled = styled.li`
   width: 190px;
   cursor: pointer;
   overflow: hidden;
-  margin-left: 1000px;
+  margin-left: 200px;
 
   animation-name: surge;
   animation-duration: 1s;
@@ -21,7 +21,7 @@ export const MenuItemStyled = styled.li`
   }
 
   @keyframes surge {
-    0%   { margin-left: 1000px; }
+    0%   { margin-left: 200px; }
     100% { margin-left: 0; }
   }
 `;
