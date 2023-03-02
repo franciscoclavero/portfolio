@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const MenuItemsAreaStyled = styled.ul`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   align-items: center;
 
