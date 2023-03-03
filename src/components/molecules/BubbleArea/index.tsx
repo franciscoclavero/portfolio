@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Bubble from 'src/components/atoms/Bubble';
+import Bubble from '../../../components/atoms/Bubble';
 
 import { BubbleAreaStyled } from './styled.module';
 

@@ -4,10 +4,10 @@ export const MenuItemStyled = styled.li`
   height: 70px;
   text-align: center;
   line-height: 70px;
-  width: 190px;
+  width: 130px;
   cursor: pointer;
   overflow: hidden;
-  margin-left: 1000px;
+  margin-left: 200px;
 
   animation-name: surge;
   animation-duration: 1s;
@@ -16,12 +16,11 @@ export const MenuItemStyled = styled.li`
 
 
   &:hover {
-    font-size: 16px;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #004281;
   }
 
   @keyframes surge {
-    0%   { margin-left: 1000px; }
+    0%   { margin-left: 200px; }
     100% { margin-left: 0; }
   }
 `;
