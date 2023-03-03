@@ -1,8 +1,8 @@
 import Button from "src/components/atoms/Button";
-import { informationAreaItems } from "src/DB/informationAreaItems";
-import InformationIcons from "../InformationIcons";
+import { informationAreaItems } from "../../../DB/informationAreaItems";
+import InformationIcons from "../../molecules/InformationIcons";
 
-import InformationItems from "../InformationItems";
+import InformationItems from "../../molecules/InformationItems";
 
 import { GroupAreaStyled } from "./styled.module";
 

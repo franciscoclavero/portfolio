@@ -1,8 +1,8 @@
 import React from 'react';
 
-import BodyContent from '../BodyContent';
-import MenuNavbar from '../MenuNavbar';
-import Ocean from '../Ocean';
+import BodyContent from '../../templates/BodyContent';
+import MenuNavbar from '../../molecules/MenuNavbar';
+import Ocean from '../../molecules/Ocean';
 
 import { BackgroundStyled } from './styled.module';
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import { iconList } from 'src/DB/iconList';
+import { iconList } from '../../../DB/iconList';
 
-import Image from 'src/components/atoms/Image';
+import Image from '../../../components/atoms/Image';
 
 interface ILinkIcon {
   type: string,

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Background from '../src/components/molecules/Background';
+import Background from '../src/components/organisms/Background';
 
 const Home = () => {
   return (

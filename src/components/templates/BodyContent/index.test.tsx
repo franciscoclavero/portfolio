@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import React from 'react'
 
-import BodyContent from './'
+import BodyContent from '.'
 
 describe('BodyContent component ', () => {
   it('- render', () => {
