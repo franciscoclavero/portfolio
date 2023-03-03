@@ -1,7 +1,7 @@
 import React from 'react';
 
+import InformationGroupArea from 'src/components/organisms/InformationGroupArea';
 import DescriptionArea from '../../molecules/DescriptionArea';
-import InformationGroupArea from 'src/components/molecules/InformationGroupArea';
 
 import { PrincipalBody, ContentArea } from './style.module';
 
