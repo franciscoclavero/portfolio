@@ -14,7 +14,7 @@ const LinkIcon = ({ type, height, width }: ILinkIcon) => {
 
   return (
     <abbr title={selectedItem.name}>
-      <a href={selectedItem.url}>
+      <a href={selectedItem.url} target="_blank">
         <Image height={height} width={width} src={selectedItem.src} />
       </a>
     </abbr>
