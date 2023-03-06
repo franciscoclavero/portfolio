@@ -4,6 +4,8 @@ export const SkillBody = styled.div`
   width: 50px;
   height: 50px;
   margin: 4px;
+  cursor: pointer;
+  border: none;
 `;
 
 export const SkillsAbbr = styled.div`
