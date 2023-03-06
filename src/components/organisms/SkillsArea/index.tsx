@@ -1,7 +1,8 @@
 import React from 'react';
 import SkillsItem from 'src/components/molecules/SkillsItem';
+import SkillsBallon from '../../molecules/SkillsBallon';
 
-import { SkillsAreaItemsStyled, SkillsAreaStyled } from './styled.module';
+import { SkillsAreaItemsStyled, SkillsAreaStyled, SkillsAreaTitle } from './styled.module';
 
 interface ISkillsList {
   title: string,
@@ -17,16 +18,19 @@ type TSkill = {
 
 const SkillsArea = ({title, skills, border}: ISkillsList) => {
   return (
-    <SkillsAreaStyled border={border}>
-      <h1>{title}</h1>
-      <SkillsAreaItemsStyled>
-        {
-          skills.map((data, index) => {
-            return <SkillsItem {...data} key={index}/>
-          })
-        }
-      </SkillsAreaItemsStyled>
-    </SkillsAreaStyled>
+    <>
+      <SkillsAreaStyled border={border}>
+        <SkillsAreaTitle>{title}</SkillsAreaTitle>
+        <SkillsAreaItemsStyled>
+          {
+            skills.map((data, index) => {
+              return <SkillsItem {...data} key={index}/>
+            })
+          }
+        </SkillsAreaItemsStyled>
+      </SkillsAreaStyled>
+      <SkillsBallon />
+    </>
   )
 };
 
