@@ -6,4 +6,5 @@ export const MenuStyled = styled.nav`
   height: 70px;
   width: 950px;
   translate: 25%;
+  z-index: 5;
 `;
