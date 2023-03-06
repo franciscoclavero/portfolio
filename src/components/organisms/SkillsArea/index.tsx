@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillsItem from 'src/components/molecules/SkillsItem';
+import SkillsItem from '../../../components/molecules/SkillsItem';
 import SkillsBallon from '../../molecules/SkillsBallon';
 
 import { SkillsAreaItemsStyled, SkillsAreaStyled, SkillsAreaTitle } from './styled.module';

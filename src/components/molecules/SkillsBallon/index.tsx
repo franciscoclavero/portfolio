@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SkillsBallonItem from 'src/components/atoms/SkillsBallonItem';
-import { useAppSelector } from 'src/hooks/useSelector';
+import SkillsBallonItem from '../../../components/atoms/SkillsBallonItem';
+import { useAppSelector } from '../../../hooks/useSelector';
 
 import { SkillsBallonStyled } from './styled.module';
 

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { useAppSelector } from 'src/hooks/useSelector';
-import { setDisplay, setLeft, setSkillList, setTop } from 'src/redux/reducer/skillsReducer';
+import { useAppSelector } from '../../../hooks/useSelector';
+import { setDisplay, setLeft, setSkillList, setTop } from '../../../redux/reducer/skillsReducer';
 
 import { SkillBody, SkillsAbbr, SkillIcon } from './styled.module';
 
