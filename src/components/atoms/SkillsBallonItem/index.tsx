@@ -1,10 +1,14 @@
 import React from "react";
 import { BallonItem } from "./styled.module";
 
-const SkillsBallonItem = () => {
+interface ISkillBallonItem {
+  contentText: string;
+}
+
+const SkillsBallonItem = ({ contentText }: ISkillBallonItem) => {
   return (
     <BallonItem>
-      <span>Item 1</span>
+      <span> {contentText} </span>
     </BallonItem>
   )
 }
