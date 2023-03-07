@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PrincipalBody = styled.aside`
   width: 100%;
-  color: #003754;
+  color: white;
 `;
 
 export const ContentArea = styled.div`
