@@ -38,9 +38,13 @@ export const skillsList = {
   'soft': {
     'title': 'Soft Skills',  
     'skills': [
-      {'name': 'Adaptação',       'src': `${route}/adaptable.png`, 'props': []},
-      {'name': 'Resolução de problemas',       'src': `${route}/problem-solving.png`, 'props': []},
-      {'name': 'Trabalho em equipe',       'src': `${route}/team-work.png`, 'props': []},
+      {'name': 'Adaptação',       'src': `${route}adaptable.png`, 'props': []},
+      {'name': 'Resolução de problemas',       'src': `${route}problem-solving.png`, 'props': []},
+      {'name': 'Trabalho em equipe',       'src': `${route}team-work.png`, 'props': []},
+      {'name': 'Trabalho Sob Pressão',       'src': `${route}work-pressure.png`, 'props': []},
+      {'name': 'Princípios Éticos',       'src': `${route}ethic.png`, 'props': []},
+      {'name': 'Auto-aprendizagem',       'src': `${route}self-learning.png`, 'props': []},
+      {'name': 'Responsabilidade',       'src': `${route}accountability.png`, 'props': []},
     ],
   },
 }
