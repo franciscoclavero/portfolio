@@ -8,13 +8,13 @@ import { SkillBody, SkillsAbbr, SkillIcon } from './styled.module';
 interface IItem {
   name: string,
   src: string,
-  props: string[]
+  props: string[],
+  background?: boolean
 }
 
-const SkillsItem = ({ name, src, props }: IItem) => {
+const SkillsItem = ({ name, src, props, background }: IItem) => {
   const ref = useRef<HTMLDivElement>(null);
   const { display } = useAppSelector(store => store.skills);
-  const [activeItem, setActiveItem] = useState(false)
   const dispatch = useDispatch();
 
   const handleClick = () => {
@@ -34,7 +34,7 @@ const SkillsItem = ({ name, src, props }: IItem) => {
   return (
     <SkillBody ref={ref} onClick={handleClick}>
       <SkillsAbbr title={name}>
-        <SkillIcon src={src} />
+        <SkillIcon src={src} background={background} />
       </SkillsAbbr>
     </SkillBody>
   )

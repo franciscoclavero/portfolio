@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SkillBody = styled.div`
   width: 50px;
   height: 50px;
-  margin: 4px;
+  margin: 8px;
   cursor: pointer;
   border: none;
 `;
@@ -15,7 +15,12 @@ export const SkillsAbbr = styled.div`
   align-items: center;
 `;
 
-export const SkillIcon = styled.img`
+interface ISkillIcon {
+  background?: boolean
+}
+
+export const SkillIcon = styled.img<ISkillIcon>`
   height: 48px;
   margin: 1px;
+  ${(props) => props.background ? '    filter: invert(15%) sepia(21%) saturate(5737%) hue-rotate(177deg) brightness(93%) contrast(102%);' : ''}
 `; 
