@@ -22,5 +22,5 @@ interface ISkillIcon {
 export const SkillIcon = styled.img<ISkillIcon>`
   height: 48px;
   margin: 1px;
-  ${(props) => props.background ? '    filter: invert(15%) sepia(21%) saturate(5737%) hue-rotate(177deg) brightness(93%) contrast(102%);' : ''}
+  ${(props) => props.background ? 'filter: invert(82%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(110%) contrast(101%);' : ''}
 `; 
