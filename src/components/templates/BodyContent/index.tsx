@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectsPage from 'src/components/pages/ProjectsPage';
 import ExperiencePage from '../../../components/pages/ExperiencePage';
 
 import HomePage from '../../../components/pages/HomePage';
@@ -12,6 +13,7 @@ const BodyContent = () => {
       <HomePage />
       <ExperiencePage />
       <SkillsPage />
+      <ProjectsPage />
     </BodyContentStyled>
   );
 };
