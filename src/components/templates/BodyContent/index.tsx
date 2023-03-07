@@ -1,7 +1,8 @@
 import React from 'react';
-import ExperiencePage from 'src/components/pages/ExperiencePage';
+import ExperiencePage from '../../../components/pages/ExperiencePage';
 
-import HomePage from 'src/components/pages/HomePage';
+import HomePage from '../../../components/pages/HomePage';
+import SkillsPage from '../../../components/pages/SkillsPage';
 
 import { BodyContentStyled } from './style.module';
 
@@ -10,6 +11,7 @@ const BodyContent = () => {
     <BodyContentStyled>
       <HomePage />
       <ExperiencePage />
+      <SkillsPage />
     </BodyContentStyled>
   );
 };

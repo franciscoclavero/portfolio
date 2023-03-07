@@ -14,7 +14,7 @@ export const iconList: IIconList = {
   },
   'github': { 
     'name': 'GitHub',
-    'url': 'github.com/franciscoclavero',
+    'url': 'https://github.com/franciscoclavero',
     'src': 'assets/icons/github.png'
   },
   'linkedin': { 
