@@ -2,7 +2,7 @@ import React from 'react';
 import { ExperiencePageStyled } from './styled.module';
 
 import ExperienceArea from '../../../components/organisms/ExperienceArea';
-import { experienceList } from '../../../DB/experienceList';
+import { experienceList } from '../../../db/experienceList';
 
 const ExperiencePage = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillsArea from 'src/components/organisms/SkillsArea';
-import { skillsList } from 'src/DB/skillsList';
+import { skillsList } from 'src/db/skillsList';
 
 import { SkillsPageStyled } from './styled.module';
 
