@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BodyProjects = styled.div`
+  margin-top: 64px; 
   width: 100%;
 `;
 
