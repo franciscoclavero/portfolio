@@ -8,7 +8,7 @@ const SkillsPage = () => {
   return (
     <SkillsPageStyled>
       <SkillsArea { ...skillsList.hard } border />
-      <SkillsArea { ...skillsList.soft } />
+      <SkillsArea { ...skillsList.soft } background />
     </SkillsPageStyled>
   )
 };
