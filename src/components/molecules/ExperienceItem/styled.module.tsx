@@ -4,7 +4,6 @@ export const ItemArea = styled.div`
   border: 1px solid white;
   border-radius: 3px;
   color: #fff;
-  height: 163px;
   margin: 16px auto;
   padding: 16px;
   width: 411px;
