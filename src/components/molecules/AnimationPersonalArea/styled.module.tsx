@@ -22,6 +22,7 @@ export const Animation = styled.div`
   overflow:hidden;
   margin-left: 1rem;
   display:inline-block;
+  color: #003754;
   
   div {
     padding: 0.25rem 0.75rem 0.25rem 0;
