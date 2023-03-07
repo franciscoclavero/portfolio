@@ -1,5 +1,5 @@
 import Button from "src/components/atoms/Button";
-import { informationAreaItems } from "../../../DB/informationAreaItems";
+import { informationAreaItems } from "../../../db/informationAreaItems";
 import InformationIcons from "../../molecules/InformationIcons";
 
 import InformationItems from "../../molecules/InformationItems";

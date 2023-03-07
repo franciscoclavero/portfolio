@@ -1,5 +1,5 @@
 import React from 'react';
-import { iconList } from '../../../DB/iconList';
+import { iconList } from '../../../db/iconList';
 
 import Image from '../../../components/atoms/Image';
 
