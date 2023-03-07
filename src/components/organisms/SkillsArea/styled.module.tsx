@@ -13,7 +13,7 @@ export const SkillsAreaStyled = styled.div<TSkillsArea>`
 export const SkillsAreaItemsStyled = styled.div<TSkillsArea>`
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   margin: auto;
   width: 433px;
 `;

@@ -7,7 +7,8 @@ import { SkillsAreaItemsStyled, SkillsAreaStyled, SkillsAreaTitle } from './styl
 interface ISkillsList {
   title: string,
   skills: TSkill[],
-  border?: boolean
+  border?: boolean,
+  background?: boolean
 };
 
 type TSkill = {
@@ -16,7 +17,7 @@ type TSkill = {
   'props': string[]
 };
 
-const SkillsArea = ({title, skills, border}: ISkillsList) => {
+const SkillsArea = ({title, skills, border, background}: ISkillsList) => {
   return (
     <>
       <SkillsAreaStyled border={border}>
@@ -24,7 +25,7 @@ const SkillsArea = ({title, skills, border}: ISkillsList) => {
         <SkillsAreaItemsStyled>
           {
             skills.map((data, index) => {
-              return <SkillsItem {...data} key={index}/>
+              return <SkillsItem {...data} background={background} key={index}/>
             })
           }
         </SkillsAreaItemsStyled>
