@@ -3,6 +3,7 @@ import React from 'react';
 import BodyContent from '../../templates/BodyContent';
 import MenuNavbar from '../../molecules/MenuNavbar';
 import Ocean from '../../molecules/Ocean';
+import Footer from 'src/components/atoms/Footer';
 
 import { BackgroundStyled } from './styled.module';
 
@@ -12,6 +13,7 @@ const Background = () => {
       <Ocean />
       <MenuNavbar />
       <BodyContent />
+      <Footer />
     </BackgroundStyled>
   )
 }
