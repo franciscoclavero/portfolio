@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonStyled = styled.div`
+export const ButtonStyled = styled.button`
   width: 178px;
   height: 40px;
   background: #1366D6;
@@ -12,6 +12,7 @@ export const ButtonStyled = styled.div`
   text-align: center;
   cursor: pointer;
   margin-top: 16px;
+  border: none;
 
   &:hover {
     background: rgb( 19, 102, 214, 0.7);
