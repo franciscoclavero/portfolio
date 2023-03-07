@@ -1,7 +1,8 @@
 import React from 'react';
-import ProjectsPage from 'src/components/pages/ProjectsPage';
-import ExperiencePage from '../../../components/pages/ExperiencePage';
 
+import ContactPage from '../../../components/pages/ContactPage';
+import ProjectsPage from '../../../components/pages/ProjectsPage';
+import ExperiencePage from '../../../components/pages/ExperiencePage';
 import HomePage from '../../../components/pages/HomePage';
 import SkillsPage from '../../../components/pages/SkillsPage';
 
@@ -14,6 +15,7 @@ const BodyContent = () => {
       <ExperiencePage />
       <SkillsPage />
       <ProjectsPage />
+      <ContactPage />
     </BodyContentStyled>
   );
 };
